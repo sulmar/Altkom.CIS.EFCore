@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CIS.EFCore.Models", "Altkom.CIS.EFCore.Models\Altkom.CIS.EFCore.Models.csproj", "{ED389FC4-9705-4551-8745-DE12FB73AF3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CIS.EFCore.SampleData", "Altkom.CIS.EFCore.SampleData\Altkom.CIS.EFCore.SampleData.csproj", "{7F0DDA9E-E9A2-4F41-AC4E-A645E03336FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CIS.EFCore.ConsoleClient", "Altkom.CIS.EFCore.ConsoleClient\Altkom.CIS.EFCore.ConsoleClient.csproj", "{26F19C15-0263-483E-8966-4AB023FEFA0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{ED389FC4-9705-4551-8745-DE12FB73AF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED389FC4-9705-4551-8745-DE12FB73AF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED389FC4-9705-4551-8745-DE12FB73AF3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0DDA9E-E9A2-4F41-AC4E-A645E03336FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0DDA9E-E9A2-4F41-AC4E-A645E03336FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0DDA9E-E9A2-4F41-AC4E-A645E03336FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0DDA9E-E9A2-4F41-AC4E-A645E03336FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F19C15-0263-483E-8966-4AB023FEFA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F19C15-0263-483E-8966-4AB023FEFA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F19C15-0263-483E-8966-4AB023FEFA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F19C15-0263-483E-8966-4AB023FEFA0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
