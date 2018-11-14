@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CIS.EFCore.Models", "Altkom.CIS.EFCore.Models\Altkom.CIS.EFCore.Models.csproj", "{ED389FC4-9705-4551-8745-DE12FB73AF3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Altkom.CIS.EFCore.Models", "Altkom.CIS.EFCore.Models\Altkom.CIS.EFCore.Models.csproj", "{ED389FC4-9705-4551-8745-DE12FB73AF3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CIS.EFCore.SampleData", "Altkom.CIS.EFCore.SampleData\Altkom.CIS.EFCore.SampleData.csproj", "{7F0DDA9E-E9A2-4F41-AC4E-A645E03336FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Altkom.CIS.EFCore.SampleData", "Altkom.CIS.EFCore.SampleData\Altkom.CIS.EFCore.SampleData.csproj", "{7F0DDA9E-E9A2-4F41-AC4E-A645E03336FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CIS.EFCore.ConsoleClient", "Altkom.CIS.EFCore.ConsoleClient\Altkom.CIS.EFCore.ConsoleClient.csproj", "{26F19C15-0263-483E-8966-4AB023FEFA0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Altkom.CIS.EFCore.ConsoleClient", "Altkom.CIS.EFCore.ConsoleClient\Altkom.CIS.EFCore.ConsoleClient.csproj", "{26F19C15-0263-483E-8966-4AB023FEFA0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CIS.EFCore.WebService", "Altkom.CIS.EFCore.WebService\Altkom.CIS.EFCore.WebService.csproj", "{EBCAA211-1C4B-4D1E-A500-0C79A1FB585D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CIS.EFCore.IServices", "Altkom.CIS.EFCore.IServices\Altkom.CIS.EFCore.IServices.csproj", "{DE1EF77E-12D3-4DAD-802B-A9CFA61BAE8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altkom.CIS.EFCore.DbServices", "Altkom.CIS.EFCore.DbServices\Altkom.CIS.EFCore.DbServices.csproj", "{EB405A57-3862-4855-AF4B-EA5E132CB7CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{26F19C15-0263-483E-8966-4AB023FEFA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26F19C15-0263-483E-8966-4AB023FEFA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26F19C15-0263-483E-8966-4AB023FEFA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBCAA211-1C4B-4D1E-A500-0C79A1FB585D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCAA211-1C4B-4D1E-A500-0C79A1FB585D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCAA211-1C4B-4D1E-A500-0C79A1FB585D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCAA211-1C4B-4D1E-A500-0C79A1FB585D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1EF77E-12D3-4DAD-802B-A9CFA61BAE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1EF77E-12D3-4DAD-802B-A9CFA61BAE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1EF77E-12D3-4DAD-802B-A9CFA61BAE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1EF77E-12D3-4DAD-802B-A9CFA61BAE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB405A57-3862-4855-AF4B-EA5E132CB7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB405A57-3862-4855-AF4B-EA5E132CB7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB405A57-3862-4855-AF4B-EA5E132CB7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB405A57-3862-4855-AF4B-EA5E132CB7CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
