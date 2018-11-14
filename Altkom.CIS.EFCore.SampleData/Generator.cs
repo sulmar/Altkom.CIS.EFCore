@@ -3,6 +3,7 @@ using Altkom.CIS.EFCore.SampleData.Fakers;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Altkom.CIS.EFCore.SampleData
 {
@@ -26,6 +27,20 @@ namespace Altkom.CIS.EFCore.SampleData
         {
             var serviceFaker = new ServiceFaker();
             return serviceFaker.Generate(count);
+        }
+
+        public static IEnumerable<Order> GetOrders(int count)
+        {
+            var customers = GetCustomers(100).ToList();
+
+            var products = GetProducts(50);
+            var services = GetServices(20);
+
+            IList<Item> items = products.Cast<Item>().Concat(services).ToList();
+
+            var orderFaker = new OrderFaker(customers, new OrderDetailFaker(items));
+
+            return orderFaker.Generate(count);
         }
     }
 }

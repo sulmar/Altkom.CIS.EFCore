@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -10,8 +11,11 @@ namespace Altkom.CIS.EFCore.ConsoleClient
         {
             using (MyContext context = new MyContext())
             {
-                context.Database.EnsureDeleted();
-                context.Database.EnsureCreated();
+                // context.Database.EnsureDeleted();
+                // context.Database.EnsureCreated();
+
+                context.Database.Migrate();
+
             }
         }
     }

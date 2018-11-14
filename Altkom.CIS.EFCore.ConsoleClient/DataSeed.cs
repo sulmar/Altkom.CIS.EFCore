@@ -9,6 +9,17 @@ namespace Altkom.CIS.EFCore.ConsoleClient
 {
     class DataSeed
     {
+        public static void CreateOrdersTest(int count)
+        {
+            var orders = Generator.GetOrders(count);
+
+            using (var context = new MyContext())
+            {
+                context.Orders.AddRange(orders);
+                context.SaveChanges();
+            }
+        }
+
         public static void Test()
         {
             var customers = Generator.GetCustomers(100);

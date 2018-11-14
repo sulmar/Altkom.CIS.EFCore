@@ -8,9 +8,15 @@ namespace Altkom.CIS.EFCore.ConsoleClient
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //CreateDatabase.Test();
+            CreateDatabase.Test();
             //DataSeed.Test();
-            Saving.Test();
+
+            DataSeed.CreateOrdersTest(1000);
+            //Saving.Test();
+
+            Querying.Test();
+
+             
 
             // Display(customers);
 

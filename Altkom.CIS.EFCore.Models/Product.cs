@@ -6,7 +6,8 @@ namespace Altkom.CIS.EFCore.Models
 {
     public class Product : Item
     {
-        public string Color { get; set; }        
+        public string Color { get; set; }
+        public string Size { get; set; }
     }
 
     public class Service : Item
