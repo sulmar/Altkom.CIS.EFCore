@@ -9,5 +9,8 @@ namespace Altkom.CIS.EFCore.IServices
     {
         IEnumerable<Product> Get();
         Product Get(int id);
+        void Add(Product product);
+        void Remove(int id);
+        void Update(Product product);
     }
 }

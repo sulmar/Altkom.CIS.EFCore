@@ -11,9 +11,14 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Altkom.CIS.EFCore.DbServices\Altkom.CIS.EFCore.DbServices.csproj" />
     <ProjectReference Include="..\Altkom.CIS.EFCore.IServices\Altkom.CIS.EFCore.IServices.csproj" />
     <ProjectReference Include="..\Altkom.CIS.EFCore.Models\Altkom.CIS.EFCore.Models.csproj" />
   </ItemGroup>
